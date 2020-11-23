@@ -2,6 +2,8 @@
 # For all the employees in company there will only be 1 CEO
 
 class CEO:
+    """Singleton pattern] restricts the instantiation of a class to one “single” instance.
+    This is useful when exactly one object is needed to coordinate actions across the system """
     __instance = None
 
     def get_instance(self):
